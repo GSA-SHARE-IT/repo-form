@@ -1,22 +1,22 @@
 {
-  "name": "shareit-repo-discovery-form",
+  "name": "repo-form",
   "description": "Static web form for collecting source code repository information",
   "status": "Development",
   "permissions": {
     "licenses": [
       {
         "name": "CC0-1.0",
-        "URL": "https://github.com/HHS/shareit-repo-discovery-form/blob/main/LICENSE"
+        "URL": "https://github.com/GSA-SHARE-IT/repo-form/blob/main/LICENSE"
       }
     ],
     "usageType": [
       "openSource"
     ]
   },
-  "organization": "United States Department of Health and Human Services",
-  "repositoryURL": "https://github.com/HHS/shareit-repo-discovery-form",
+  "organization": "General Services Administration",
+  "repositoryURL": "https://github.com/GSA-SHARE-IT/repo-form",
   "repositoryVisibility": "public",
-  "homepageURL": "https://hhs.github.io/shareit-repo-discovery-form/",
+  "homepageURL": "https://gsa-share-it.github.io/repo-form/",
   "vcs": "git",
   "laborHours": 10,
   "reuseFrequency": {
@@ -32,7 +32,7 @@
   "contractNumber": [
     "0"
   ],
-  "SBOM": "https://github.com/HHS/shareit-repo-discovery-form/network/dependencies",
+  "SBOM": "https://github.com/GSA-SHARE-IT/repo-form/network/dependencies",
   "relatedCode": [
     {
       "name": "Web Form Template",
@@ -60,6 +60,6 @@
     "email": "opensource@cms.hhs.gov",
     "name": "OSPG"
   },
-  "feedbackMechanism": "https://github.com/HHS/shareit-repo-discovery-form/issues",
+  "feedbackMechanism": "https://github.com/GSA-SHARE-IT/repo-form/issues",
   "AIUseCaseID": "0"
 }

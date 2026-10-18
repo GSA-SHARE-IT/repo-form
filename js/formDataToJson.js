@@ -444,7 +444,7 @@ async function createGitHubIssueForm(event) {
 
 // Create GitHub URL
 function createGitHubNewIssueURL(title, body) {
-	const baseURL = "https://github.com/HHS/shareit-repo-discovery-form-inventory/issues/new";
+	const baseURL = "https://github.com/GSA-SHARE-IT/repo-inventory/issues/new";
 	const params = new URLSearchParams({
 		title: title,
 		body: body,
@@ -495,7 +495,7 @@ async function createIssueOnGitHub(token, title, body) {
 	const agency = JSONObj["HHS Division"];
 	const match = agency.match(/\(([^)]+)\)/);
 
-	const createIssueAPIURL = "https://api.github.com/repos/HHS/shareit-repo-discovery-form-inventory/issues";
+	const createIssueAPIURL = "https://api.github.com/repos/GSA-SHARE-IT/repo-inventory/issues";
 
 	const response = await fetch(createIssueAPIURL,
 		{
@@ -544,7 +544,7 @@ async function emailFile(event) {
 
 		const jsonString = JSON.stringify(cleanData, null, 2);
 
-		const subject = "SHARE IT Repository Discovery Form — Response to HHS";
+		const subject = "SHARE IT Repository Discovery Form — Response to GSA";
 		const body = `Hello,\n\nI have submitted a response for SHARE IT Repository Discovery Form:\n\n${jsonString}\n\nThank you!`;
 
 		// const recipients = ["opensource@cms.hhs.gov", "cdo@hhs.gov"];

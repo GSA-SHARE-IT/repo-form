@@ -8,7 +8,7 @@ This project provides a web-based form that allows repository owners to submit k
 
 ### Project Mission
 
-To simplify and standardize the process of source code repository discovery and compliance reporting in alignment with the SHARE IT Act of 2024, enabling HHS agencies to maintain an accurate and up-to-date inventory of their software assets.
+To simplify and standardize the process of source code repository discovery and compliance reporting in alignment with the SHARE IT Act of 2024, enabling GSA and other agencies to maintain an accurate and up-to-date inventory of their software assets.
 
 
 <!--
@@ -86,7 +86,7 @@ We also recognize capacity building as a key part of involving a diverse open so
 Principles and guidelines for participating in our open source community are can be found in [COMMUNITY.md](COMMUNITY.md). Please read them before joining or starting a conversation in this repo or one of the channels listed below. All community members and participants are expected to adhere to the community guidelines and code of conduct when participating in community spaces including: code repositories, communication channels and venues, and events.
 
 ## Feedback
-If you have ideas for how we can improve or add to our capacity building efforts and methods for welcoming people into our community, please let us know at opensource@cms.hhs.gov. If you would like to comment on the tool itself, please let us know by filing an **issue on our GitHub repository:** [https://github.com/HHS/shareit-repo-discovery-form/issues](https://github.com/HHS/shareit-repo-discovery-form/issues).
+If you have ideas for how we can improve or add to our capacity building efforts and methods for welcoming people into our community, please let us know at opensource@cms.hhs.gov. If you would like to comment on the tool itself, please let us know by filing an **issue on our GitHub repository:** [https://github.com/GSA-SHARE-IT/repo-form/issues](https://github.com/GSA-SHARE-IT/repo-form/issues).
 
 ## Policies
 
