@@ -31,7 +31,7 @@ function determineValidation(fieldName, fieldObject, requiredArray) {
 
 // Function that determines type of form component based on field
 function determineType(field) {
-	if (field.enum && field.enum.includes("HHS Objectives, Values, and Return on Investment (ROI) with Data")) {
+	if (field.enum && field.enum.includes("GSA Objectives, Values, and Return on Investment (ROI) with Data")) {
 		return "select"
 	}
 	if (field.type === "object") {
