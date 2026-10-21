@@ -1,5 +1,8 @@
 body {
+    border: 5px solid #f4f4f4;
+    border-radius: 15px;
     margin: 1%;
+    padding: 1% 15%;
 }
 
 textarea {
@@ -111,4 +114,67 @@ textarea {
 
 #copy {
     margin-right: 10px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.text-base-dark {
+    font-size: .9rem;
+    font-weight: 400;
+    color: #323131;
+    margin-top: 2px;
+}
+
+.formio-form-group:not(.formio-component-button) {
+    display: flex;
+    flex-direction: column;
+}
+
+.formio-form-group:not(.formio-component-button) > .usa-label {
+    order: 1;
+}
+
+.formio-form-group:not(.formio-component-button) > .text-base-dark {
+    order: 2;
+}
+
+.formio-form-group:not(.formio-component-button) > [ref="element"] {
+    order: 3;
+}
+
+.formio-form-group:not(.formio-component-button) > .formio-errors {
+    order: 4;
+}
+
+.usa-fieldset {
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.usa-fieldset legend {
+    order: 0;
+}
+
+.usa-fieldset .legend-wrapper {
+    order: 1;
+}
+
+.usa-fieldset .text-base-dark {
+    order: 2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.usa-fieldset .usa-radio,
+.usa-fieldset .usa-checkbox {
+    order: 3;
+}
+
+.usa-fieldset .formio-errors {
+    order: 4;
 }
